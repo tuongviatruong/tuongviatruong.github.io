@@ -5,8 +5,19 @@
 }
 
 
-.navbar-custom{
+.navbar-link {
+    color: #FFFFFF;
+}
+
+.navbar-link:hover {
+    color: #ffce00;
+}
+.navbar-custom {
     background-color: #DF744A;
+}
+
+.nav-link {
+    color:#fff;
 }
 
 .nav-logo {
@@ -21,6 +32,7 @@
     height: 300px; 
     margin: 0; 
     padding: 0;
+    width: 50%; 
 
 }
 
@@ -29,7 +41,6 @@
     height: 20px; 
     margin: 0; 
     padding: 0;
-
 }
 
 .vi-logo{
@@ -81,7 +92,6 @@ a:hover {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
 
 .about-section {
     background-color: #FEDCD2;
@@ -140,7 +150,6 @@ a:hover {
         -2px -2px white;
 }
 
-
 .row .col-4 ul li {
     list-style-type: none;
     margin: 0;
@@ -180,7 +189,10 @@ a:hover {
 
 .app_gif {
     width: 841px; 
-    height: 521px ;
+    height: 521px;
+    padding: 60px 0 20px;
+    width: 80%; 
+    height: 80%;
 
 }
 
@@ -380,3 +392,4 @@ section#timeline article:nth-child(5) div.inner h2 {
 section#timeline article:nth-child(5) div.inner h2:after {
   background: #9b59b6;
 }
+
