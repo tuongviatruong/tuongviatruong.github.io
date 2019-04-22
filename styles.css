@@ -33,6 +33,7 @@
     margin: 0; 
     padding: 0;
     width: 50%; 
+    height: auto;
 
 }
 
@@ -191,8 +192,8 @@ a:hover {
     width: 841px; 
     height: 521px;
     padding: 60px 0 20px;
-    width: 80%; 
-    height: 80%;
+    width: 85%; 
+    height: auto;
 
 }
 
@@ -222,6 +223,10 @@ a:hover {
 }
 
 .email {
+    color: #000;
+}
+
+.phone {
     color: #000;
 }
 
